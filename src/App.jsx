@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import data from '../public/data.js'
 function App() {
-  let window = 3
+  let window = 1
   const cards = data.map((item, index) => {
     return (
       <SwiperSlide key={item.id}>
