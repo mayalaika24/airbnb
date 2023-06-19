@@ -1,0 +1,43 @@
+.container{
+    width: 200px;
+    font-size: 14px;
+    position: relative;
+    margin: 0 auto;
+}
+.card-img{
+    width: 100%;
+    min-width: 200px;
+    height: 275px;
+    border-radius: 8px;
+}
+.card-img img{
+    border-radius: 8px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.top{
+    display: flex;
+    margin-bottom: 10px;
+}
+.middle{
+    margin-bottom: 10px;
+}
+.star-icon{
+    width: 10px;
+    height: 10px;
+}
+.status{
+    height: 30px;
+    width: 85px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
